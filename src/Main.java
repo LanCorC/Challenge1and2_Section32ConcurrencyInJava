@@ -17,6 +17,9 @@ public class Main {
         t1.start();
         t2.start();
 
+        //Below commented prints out the sum
+        //Expected result: sum of 1353.75
+
 //        new Thread(() -> {
 //            try {
 //                System.out.println("Starting sleep soon...");

@@ -16,7 +16,15 @@
         balance -= amount;
     }
 
-     public double getBalance() {
+    public double getBalance() {
          return balance;
+     }
+
+     public String getAccountNumber() {
+        return accountNumber;
+     }
+
+     public void printAccountNumber() {
+         System.out.println("Account number = " + accountNumber);
      }
  }
