@@ -3,10 +3,19 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="Challenge1and2_Section32ConcurrencyInJava" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abb8695-e3bd-4eb6-b562-f7c09c319a09" name="Changes" comment="Section 23.416(Concurrency in Java: Challenge 3,4 and 5) - implementing challenge 3, correction (if any) pending">
+    <list default="true" id="1abb8695-e3bd-4eb6-b562-f7c09c319a09" name="Changes" comment="Section 23.417(Concurrency in Java: Challenge 6 and 7): fixing up some code, &quot;withdraw&quot; had not been re-implemented in previous update">
+      <change afterPath="$PROJECT_DIR$/src/Challenge7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/challenge7/Challenge7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,31 +41,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17 (2)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HelloWorldAnonymousClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorldAnonymousClasses" />
+}]]></component>
+  <component name="RunManager" selected="Application.Challenge7 (5)">
+    <configuration name="Challenge7 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
       <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Challenge7 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
       <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge7 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
+      <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge7 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
+      <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge7 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
+      <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HelloWorldAnonymousClasses" />
+        <item itemvalue="Application.Challenge7 (5)" />
+        <item itemvalue="Application.Challenge7 (4)" />
+        <item itemvalue="Application.Challenge7 (3)" />
+        <item itemvalue="Application.Challenge7 (2)" />
+        <item itemvalue="Application.Challenge7 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696735463447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Section 23.417(Concurrency in Java: Challenge 6 and 7): fixing up some code, &quot;withdraw&quot; had not been re-implemented in previous update">
+      <created>1696742547727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696742547728</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 23.415(Concurrency in Java: Challenge 1 and 2): completing challenge1, create 2 threads and start them" />
     <MESSAGE value="Section 23.416(Concurrency in Java: Challenge 3,4 and 5) - implementing challenge 3, correction (if any) pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 23.416(Concurrency in Java: Challenge 3,4 and 5) - implementing challenge 3, correction (if any) pending" />
+    <MESSAGE value="Section 23.416(Concurrency in Java: Challenge 3,4 and 5) - completing challenges 3,4,5" />
+    <MESSAGE value="Section 23.417(Concurrency in Java: Challenge 6 and 7): fixing up some code, &quot;withdraw&quot; had not been re-implemented in previous update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.417(Concurrency in Java: Challenge 6 and 7): fixing up some code, &quot;withdraw&quot; had not been re-implemented in previous update" />
   </component>
 </project>

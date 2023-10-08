@@ -1,7 +1,7 @@
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class BankAccount {
+public class BankAccount implements Challenge7 {
 
     private double balance;
     private String accountNumber;
@@ -13,7 +13,7 @@ public class BankAccount {
         lock = new ReentrantLock();
     }
 
-    public void deposit(double amount) {
+    public boolean deposit(double amount) {
 
         boolean status = false;
 
@@ -31,14 +31,14 @@ public class BankAccount {
             }
         } catch (InterruptedException e) {
             System.out.println("Something went wrong: " + e);
+        } finally {
+            System.out.println("Transaction status = " + status);
         }
 
-        System.out.println("Transaction status = " + status);
-
-
+        return status;
     }
 
-    public synchronized void withdraw(double amount) {
+    public boolean withdraw(double amount) {
         boolean status = false;
 
         try {
@@ -55,9 +55,12 @@ public class BankAccount {
             }
         } catch (InterruptedException e) {
             System.out.println("Something went wrong: " + e);
+        } finally {
+            System.out.println("Transaction status = " + status);
         }
 
-        System.out.println("Transaction status = " + status);
+        return status;
+
     }
 
     public double getBalance() {
@@ -71,4 +74,9 @@ public class BankAccount {
      public void printAccountNumber() {
          System.out.println("Account number = " + accountNumber);
      }
- }
+
+    public boolean transfer(BankAccount destinationAccount, double amount) {
+        System.out.println("Attempting to send " + amount + " to " + destinationAccount.getAccountNumber());
+        return Challenge7.super.transfer(destinationAccount, this, amount);
+    }
+}
