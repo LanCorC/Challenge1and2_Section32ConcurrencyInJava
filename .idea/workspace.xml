@@ -9,10 +9,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abb8695-e3bd-4eb6-b562-f7c09c319a09" name="Changes" comment="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/challenge8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenge8/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="1abb8695-e3bd-4eb6-b562-f7c09c319a09" name="Changes" comment="Section 23.418(Concurrency in Java: Challenge 8): my solution- remove oversynching. note: this is one of many possible solutions, such as using tryLock(), .wait(), .notify()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696810628516</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Section 23.418(Concurrency in Java: Challenge 8): my solution- remove oversynching. note: this is one of many possible solutions, such as using tryLock(), .wait(), .notify()">
+      <created>1696813315472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696813315472</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +201,7 @@
     <MESSAGE value="Section 23.417(Concurrency in Java: Challenge 6 and 7): fixing up some code, &quot;withdraw&quot; had not been re-implemented in previous update" />
     <MESSAGE value="Section 23.417(Concurrency in Java: Challenge 6 and 7): check the challenge7 package for the demonstration; solution to challenge7 was to relinquish the lock via .unlock() usually try{}finally{.unlock()}" />
     <MESSAGE value="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration" />
+    <MESSAGE value="Section 23.418(Concurrency in Java: Challenge 8): my solution- remove oversynching. note: this is one of many possible solutions, such as using tryLock(), .wait(), .notify()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.418(Concurrency in Java: Challenge 8): my solution- remove oversynching. note: this is one of many possible solutions, such as using tryLock(), .wait(), .notify()" />
   </component>
 </project>
