@@ -39,13 +39,14 @@ class NewTutor {
 
         synchronized (this) {
             System.out.println("Tutor has arrived");
-            synchronized (student) {
-                try {
-                    // wait for student to arrive
-                    this.wait();
-                } catch (InterruptedException e) {
+            try {
+                // wait for student to arrive
+                this.wait();
+            } catch (InterruptedException e) {
 
-                }
+            }
+            synchronized (student) {
+
                 student.startStudy();
                 System.out.println("Tutor is studying with student");
             }
