@@ -9,8 +9,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abb8695-e3bd-4eb6-b562-f7c09c319a09" name="Changes" comment="Section 23.417(Concurrency in Java: Challenge 6 and 7): check the challenge7 package for the demonstration; solution to challenge7 was to relinquish the lock via .unlock() usually try{}finally{.unlock()}">
+    <list default="true" id="1abb8695-e3bd-4eb6-b562-f7c09c319a09" name="Changes" comment="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenge8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenge8/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,33 +49,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Challenge7 (5)">
-    <configuration name="Challenge7 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
-      <module name="Challenge1and2_Section32ConcurrencyInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenge7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Challenge7 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
-      <module name="Challenge1and2_Section32ConcurrencyInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenge7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Challenge7 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenge7.Challenge7" />
       <module name="Challenge1and2_Section32ConcurrencyInJava" />
@@ -114,13 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge8.Main" />
+      <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge8.Main" />
+      <module name="Challenge1and2_Section32ConcurrencyInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Challenge7 (5)" />
         <item itemvalue="Application.Challenge7 (4)" />
         <item itemvalue="Application.Challenge7 (3)" />
-        <item itemvalue="Application.Challenge7 (2)" />
-        <item itemvalue="Application.Challenge7 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696766146635</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration">
+      <created>1696810618076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696810618076</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration">
+      <created>1696810628516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696810628516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +196,7 @@
     <MESSAGE value="Section 23.416(Concurrency in Java: Challenge 3,4 and 5) - completing challenges 3,4,5" />
     <MESSAGE value="Section 23.417(Concurrency in Java: Challenge 6 and 7): fixing up some code, &quot;withdraw&quot; had not been re-implemented in previous update" />
     <MESSAGE value="Section 23.417(Concurrency in Java: Challenge 6 and 7): check the challenge7 package for the demonstration; solution to challenge7 was to relinquish the lock via .unlock() usually try{}finally{.unlock()}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 23.417(Concurrency in Java: Challenge 6 and 7): check the challenge7 package for the demonstration; solution to challenge7 was to relinquish the lock via .unlock() usually try{}finally{.unlock()}" />
+    <MESSAGE value="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.418(Concurrency in Java: Challenge 8): pasted in starter code for challenge demonstration" />
   </component>
 </project>
